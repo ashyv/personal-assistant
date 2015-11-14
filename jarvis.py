@@ -34,12 +34,12 @@ def dispatcher(command, arg):
 def prompter():
     """ asks for things """
 
-    command = input("How may I help you?: [weather, square, go away, bye]")
+    command = input("How may I help you?: [weather, square, go away, bye] ")
     if command == "weather":
-        city = input("Sure thing! What city?")
+        city = input("Sure thing! What city? ")
         dispatcher(command, city)
     if command == "square":
-        num = input("I love math! What number?")
+        num = input("I love math! What number? ")
         dispatcher(command, num)
     elif command == "stocks": # TODO
         pass
